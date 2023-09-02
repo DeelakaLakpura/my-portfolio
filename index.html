@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+
+
+<!-- Mirrored from themihub.com/html/morex-bootstrap/morex/index-3.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 05 Aug 2023 20:36:55 GMT -->
+<head>
+  <meta charset="utf-8">
+  <title>Deelaka Lakpura</title>
+  <meta name="description" content="Morden Bootstrap HTML5 Template">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+    
+   <!-- ======= All CSS Plugins here ======== -->
+  <link rel="stylesheet" href="assets/css/plugins/swiper-bundle.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&amp;display=swap" rel="stylesheet">
+  
+  <!-- Plugin css -->
+  <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+
+  <!-- Custom Style CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <!-- Dark css here -->
+  <link rel="stylesheet" href="assets/css/dark.css">
+
+  <!-- Rtl css here -->
+  <link rel="stylesheet" href="assets/css/rtl.css">
+
+  <script>
+    // On page load or when changing themes, best to add inline in `head` to avoid FOUC
+    if (localStorage.getItem("theme-color") === null) {
+      localStorage.setItem("theme-color", "dark");
+    }
+    if (localStorage.getItem("theme-color") === "dark" || (!("theme-color" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+      document.documentElement.classList.add("dark");
+    } 
+    if (localStorage.getItem("theme-color") !== "dark") {
+      document.documentElement.classList.remove("dark");
+    } 
+  </script>
+  
+</head>
+
+<body class="bg-dark_primary_bg bg_offwhite">
+
+    <!-- Preloader start -->
+    <div id="preloader">
+        <div class="loader--border"></div>
+    </div>
+    <!-- Preloader end -->
+
+    <!-- Start sidebar header -->
+    <div class="sidebar__header">
+        <div class="sidebar__header--inner">
+            <div class="main__logo">
+                <a class="main__logo--link" href="index.html">
+                    <img class="main__logo--img logo_dark" src="assets/img/logo/nav-log-white.png" alt="logo-img">
+                </a>
+            </div>
+            <ul class="sidebar__header--menu">
+                <li class="sidebar__header--menu__items">
+                    <a class="sidebar__header--menu__link active" href="index.html"><span class="sidebar__header--menu__icon"><svg width="16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1H416 392c-22.1 0-40-17.9-40-40V448 384c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32v64 24c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9 .1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"></path></svg></span> HOME</a>
+                </li>
+                <li class="sidebar__header--menu__items">
+                    <a class="sidebar__header--menu__link" href="about-2.html"><span class="sidebar__header--menu__icon"><svg width="16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0S96 57.3 96 128s57.3 128 128 128zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z"></path></svg></span>  About</a>
+                </li>
+                
+                <li class="sidebar__header--menu__items">
+                    <a class="sidebar__header--menu__link" href="portfolio-2.html"><span class="sidebar__header--menu__icon"><svg width="16" fill="currentColor" stroke="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M184 48H328c4.4 0 8 3.6 8 8V96H176V56c0-4.4 3.6-8 8-8zm-56 8V96H64C28.7 96 0 124.7 0 160v96H192 320 512V160c0-35.3-28.7-64-64-64H384V56c0-30.9-25.1-56-56-56H184c-30.9 0-56 25.1-56 56zM512 288H320v32c0 17.7-14.3 32-32 32H224c-17.7 0-32-14.3-32-32V288H0V416c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V288z"></path></svg></span>  Portfolio</a>
+                </li>
+               
+                <li class="sidebar__header--menu__items">
+                    <a class="sidebar__header--menu__link" href="contact-2.html"><span class="sidebar__header--menu__icon"><svg width="16" fill="currentColor" stroke="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M96 0C60.7 0 32 28.7 32 64V448c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H96zM208 288h64c44.2 0 80 35.8 80 80c0 8.8-7.2 16-16 16H144c-8.8 0-16-7.2-16-16c0-44.2 35.8-80 80-80zm96-96c0 35.3-28.7 64-64 64s-64-28.7-64-64s28.7-64 64-64s64 28.7 64 64zM512 80c0-8.8-7.2-16-16-16s-16 7.2-16 16v64c0 8.8 7.2 16 16 16s16-7.2 16-16V80zM496 192c-8.8 0-16 7.2-16 16v64c0 8.8 7.2 16 16 16s16-7.2 16-16V208c0-8.8-7.2-16-16-16zm16 144c0-8.8-7.2-16-16-16s-16 7.2-16 16v64c0 8.8 7.2 16 16 16s16-7.2 16-16V336z"></path></svg></span>  Contact</a>
+                </li>
+            </ul>
+            <p class="copyright__content mb-0">Developed with <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="text-paragraph" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+                </span>  by <br> <span><a class="text__secondary" href="#">Deelaka</a></span>© 2023</p>
+        </div>
+    </div>
+    <!-- Start sidebar end -->
+
+   
+    
+    <!-- Start header area -->
+    <header class="header__section  d-none d-lg-u-block">
+        <div class="container-fluid">
+            <div class="main__header d-flex justify-content-between align-items-center">
+                <div class="main__logo">
+                    <h1 class="main__logo--title"><a class="main__logo--link" href="index.html">
+                        <img class="main__logo--img logo_light" src="assets/img/logo/nav-log.png" alt="logo-img">
+                        <img class="main__logo--img logo_dark" src="assets/img/logo/nav-log-white.png" alt="logo-img">
+                    </a></h1>
+                </div>
+                <div class="offcanvas__header--menu__open d-lg-u-block">
+                    <a class="offcanvas__header--menu__open--btn" href="javascript:void(0)" data-offcanvas>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="ionicon offcanvas__header--menu__open--svg" viewBox="0 0 512 512"><path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" d="M80 160h352M80 256h352M80 352h352"/></svg>
+                        <span class="visually-hidden">Offcanvas Menu Open</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End header area -->
+
+    <!-- Start Offcanvas header menu -->
+    <div class="offcanvas__header">
+        <div class="offcanvas__inner">
+            <div class="offcanvas__logo">
+                <a class="offcanvas__logo_link" href="index.html">
+                    <img src="assets/img/logo/nav-log.png" alt="Logo-img" width="158" height="36">
+                </a>
+                <button class="offcanvas__close--btn" data-offcanvas>close</button>
+            </div>
+            <nav class="offcanvas__menu">
+                <ul class="offcanvas__menu_ul">
+                    <li class="offcanvas__menu_li">
+                        <a class="offcanvas__menu_item" href="index-3.html">Home</a>
+                    </li>
+                    <li class="offcanvas__menu_li"><a class="offcanvas__menu_item" href="about-2.html">About</a></li>
+                    <li class="offcanvas__menu_li"><a class="offcanvas__menu_item" href="services-2.html">Services</a></li>
+                    <li class="offcanvas__menu_li"><a class="offcanvas__menu_item" href="portfolio-2.html">Portfolio</a></li>
+                    <li class="offcanvas__menu_li"><a class="offcanvas__menu_item" href="blog-2.html">Blog</a></li>
+                    <li class="offcanvas__menu_li"><a class="offcanvas__menu_item" href="contact-2.html">Contact</a></li>
+                </ul>
+                <div class="offcanvas__download--btn">
+                    <button class="primary__btn download__btn" onclick="downloadCV()">
+                        <svg class="download__btn--svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                        Download CV
+                    </button>
+                 </div>
+            </nav>
+        </div>
+    </div>
+    <!-- End Offcanvas header menu -->
+
+    <main class="main__content_wrapper style3">
+        <!-- Start slider section -->
+        <div class="hero__section hero__section--style3">
+            <div class="hero__section--style3__inner d-flex align-items-center">
+                <div class="hero__thumbnail position__relative">
+                    <img class="hero__thumbnail--media light_img" src="assets/img/hero/hero-thumbnail.png" alt="img">
+                    <img class="hero__thumbnail--media dark_img" src="assets/img/hero/hero-man-dark.png" alt="img">
+                    <div class="projects__budget d-flex align-items-center">
+                        <span class="projects__budget--icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check-circle"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                        </span>
+                        <div class="projects__budget--content">
+                            <span class="projects__budget--ammount">100+</span>
+                            <span class="projects__budget--text">Complete Projects</span>
+                        </div>
+                    </div>
+                    <span class="logo__positioning one">
+                        <img src="assets/img/logo/figma-logo.png" alt="logo">
+                    </span>
+                    <span class="logo__positioning two">
+                        <img src="assets/img/logo/photoshop-logo.png" alt="logo">
+                    </span>
+                    <span class="logo__positioning three">
+                        <img src="assets/img/logo/android-logo.png" alt="logo">
+                    </span>
+                </div>
+                <div class="hero__content">
+                    <span class="hero__content--subtitle text__secondary mb-10">HELLO  I'M</span>
+                    <h2 class="hero__content--title mb-15">Deelaka Lakpura! </h2>
+                    <h3 class="hero__content--subtitle2 mb-20">Software Developer </h3>
+                  
+                    <button class="primary__btn download__btn mb-30">
+                        <svg class="download__btn--svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                        Download CV
+                    </button>
+                    <div class="social__share d-flex align-items-center">
+                        <span class="social__share--title">Follow Me: </span>
+                        <ul class="social__share--wrapper d-flex">
+                            <li class="social__share--child"><a class="social__share--link" href="https://www.facebook.com/deelaka.lakpura.54/">
+                                <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="20px" height="20px">    <path d="M17.525,9H14V7c0-1.032,0.084-1.682,1.563-1.682h1.868v-3.18C16.522,2.044,15.608,1.998,14.693,2 C11.98,2,10,3.657,10,6.699V9H7v4l3-0.001V22h4v-9.003l3.066-0.001L17.525,9z"/></svg>
+                                <span class="visually-hidden">Facebook</span>
+                            </a>
+                            </li>
+                            <li class="social__share--child">
+                                <a class="social__share--link" href="https://www.linkedin.com/in/deelaka-lakpura/">
+                                    <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20px" height="20px">
+                                        <path d="M21.1,2H2.9C2.4,2,2,2.4,2,2.9v18.2c0,0.5,0.4,0.9,0.9,0.9h18.2c0.5,0,0.9-0.4,0.9-0.9V2.9C22,2.4,21.6,2,21.1,2z M7.4,20.3H4.3V9.1h3.1V20.3z M5.8,7.8c-1,0-1.8-0.8-1.8-1.8s0.8-1.8,1.8-1.8s1.8,0.8,1.8,1.8S6.8,7.8,5.8,7.8z M20.3,20.3h-3.1v-5 c0-1.2-0.5-2-1.4-2c-0.8,0-1.3,0.6-1.5,1.2c-0.1,0.3-0.1,0.7-0.1,1.1v4.7h-3.1V9.1h2.9v1.3h0c0.4-0.7,1.4-1.4,2.9-1.4 c3.1,0,3.7,2,3.7,4.6V20.3z"/>
+                                    </svg>
+                                    <span class="visually-hidden">LinkedIn</span>
+                                </a>
+                            </li>
+                            
+                            <li class="social__share--child"><a class="social__share--link" href="https://github.com/DeelakaLakpura">
+                                <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="20px" height="20px">   <path d="M12 0C5.37 0 0 5.37 0 12c0 5.303 3.438 9.8 8.207 11.387.6.113.793-.258.793-.576 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.383-1.333-1.75-1.333-1.75-1.09-.743.083-.727.083-.727 1.205.085 1.838 1.237 1.838 1.237 1.07 1.834 2.81 1.305 3.495.997.108-.776.419-1.305.76-1.605-2.665-.303-5.466-1.333-5.466-5.937 0-1.31.468-2.38 1.235-3.22-.124-.302-.536-1.52.118-3.17 0 0 1.006-.322 3.3 1.23.96-.267 1.986-.4 3.005-.405 1.02.005 2.046.138 3.005.405 2.292-1.552 3.296-1.23 3.296-1.23.654 1.65.243 2.868.12 3.17.77.84 1.234 1.91 1.234 3.22 0 4.613-2.807 5.63-5.475 5.93.43.372.818 1.103.818 2.22 0 1.605-.015 2.896-.015 3.29 0 .318.188.694.798.575C20.565 21.794 24 17.297 24 12c0-6.63-5.37-12-12-12z"/>
+                                </svg>
+                                <span class="visually-hidden">Github</span>
+                                </a>
+                            </li>
+                          
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End slider section -->
+
+
+    </main>
+
+
+    <!-- Scroll top bar -->
+    <button id="scroll__top"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path fill="none" stroke="currentColor" stroke-linecap="round"  stroke-width="48" d="M112 244l144-144 144 144M256 120v292"/></svg></button>
+    
+   <!-- All Script JS Plugins here  -->
+   <script src="assets/js/vendor/popper.js" defer="defer"></script>
+   <script src="assets/js/vendor/bootstrap.min.js" defer="defer"></script>
+   <script src="assets/js/plugins/swiper-bundle.min.js"></script>
+   <script src="assets/js/plugins/isotope.pkgd.min.js"></script>
+
+  <!-- Customscript js -->
+  <script src="assets/js/script.js"></script>
+
+  <!-- Dark to light js -->
+  <script>
+
+function downloadCV() {
+    // Specify the path to your CV file relative to the current page
+    var cvFilePath = 'assets/cv/Deelaka.pdf'; // Update the file name and extension as needed
+
+    // Create an anchor element to trigger the download
+    var anchor = document.createElement('a');
+    anchor.href = cvFilePath;
+    anchor.download = 'your_cv_file.pdf'; // Provide the desired download file name
+    anchor.style.display = 'none';
+
+    // Append the anchor to the document and trigger a click event
+    document.body.appendChild(anchor);
+    anchor.click();
+
+    // Clean up by removing the anchor element
+    document.body.removeChild(anchor);
+}
+
+    // On page load or when changing themes, best to add inline in `head` to avoid FOUC
+    if (localStorage.getItem("theme-color") === "dark" || (!("theme-color" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+      document.getElementById("light__to--dark")?.classList.add("dark--version");
+    } 
+    if (localStorage.getItem("theme-color") === "light") {
+      document.getElementById("light__to--dark")?.classList.remove("dark--version");
+    } 
+  </script>
+  
+</body>
+
+<!-- Mirrored from themihub.com/html/morex-bootstrap/morex/index-3.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 05 Aug 2023 20:36:57 GMT -->
+</html>

@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+
+
+<!-- Mirrored from themihub.com/html/morex-bootstrap/morex/contact-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 05 Aug 2023 20:37:00 GMT -->
+<head>
+  <meta charset="utf-8">
+  <title>Deelaka - Contact</title>
+  <meta name="description" content="Morden Bootstrap HTML5 Template">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+    
+   <!-- ======= All CSS Plugins here ======== -->
+  <link rel="stylesheet" href="assets/css/plugins/swiper-bundle.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&amp;display=swap" rel="stylesheet">
+  
+  <!-- Plugin css -->
+  <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+
+  <!-- Custom Style CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <!-- Dark css here -->
+  <link rel="stylesheet" href="assets/css/dark.css">
+
+  <!-- Rtl css here -->
+  <link rel="stylesheet" href="assets/css/rtl.css">
+
+  <script>
+    // On page load or when changing themes, best to add inline in `head` to avoid FOUC
+    if (localStorage.getItem("theme-color") === "dark" || (!("theme-color" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+      document.documentElement.classList.add("dark");
+    } 
+    if (localStorage.getItem("theme-color") === "light") {
+      document.documentElement.classList.remove("dark");
+    } 
+  </script>
+
+</head>
+
+<body class="bg-dark_primary_bg bg_offwhite">
+
+    <!-- Preloader start -->
+    <div id="preloader">
+        <div class="loader--border"></div>
+    </div>
+    <!-- Preloader end -->
+
+     <!-- Start sidebar header -->
+     <div class="sidebar__header">
+        <div class="sidebar__header--inner">
+            <div class="main__logo">
+                <a class="main__logo--link" href="index.html">
+                    <img class="main__logo--img logo_dark" src="assets/img/logo/nav-log-white.png" alt="logo-img">
+                </a>
+            </div>
+            <ul class="sidebar__header--menu">
+                <li class="sidebar__header--menu__items">
+                    <a class="sidebar__header--menu__link " href="index.html"><span class="sidebar__header--menu__icon"><svg width="16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1H416 392c-22.1 0-40-17.9-40-40V448 384c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32v64 24c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9 .1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"></path></svg></span> HOME</a>
+                </li>
+                <li class="sidebar__header--menu__items">
+                    <a class="sidebar__header--menu__link" href="about-2.html"><span class="sidebar__header--menu__icon"><svg width="16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0S96 57.3 96 128s57.3 128 128 128zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z"></path></svg></span>  About</a>
+                </li>
+                
+                <li class="sidebar__header--menu__items">
+                    <a class="sidebar__header--menu__link " href="portfolio-2.html"><span class="sidebar__header--menu__icon"><svg width="16" fill="currentColor" stroke="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M184 48H328c4.4 0 8 3.6 8 8V96H176V56c0-4.4 3.6-8 8-8zm-56 8V96H64C28.7 96 0 124.7 0 160v96H192 320 512V160c0-35.3-28.7-64-64-64H384V56c0-30.9-25.1-56-56-56H184c-30.9 0-56 25.1-56 56zM512 288H320v32c0 17.7-14.3 32-32 32H224c-17.7 0-32-14.3-32-32V288H0V416c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V288z"></path></svg></span>  Portfolio</a>
+                </li>
+               
+                <li class="sidebar__header--menu__items">
+                    <a class="sidebar__header--menu__link active" href="contact-2.html"><span class="sidebar__header--menu__icon"><svg width="16" fill="currentColor" stroke="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M96 0C60.7 0 32 28.7 32 64V448c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H96zM208 288h64c44.2 0 80 35.8 80 80c0 8.8-7.2 16-16 16H144c-8.8 0-16-7.2-16-16c0-44.2 35.8-80 80-80zm96-96c0 35.3-28.7 64-64 64s-64-28.7-64-64s28.7-64 64-64s64 28.7 64 64zM512 80c0-8.8-7.2-16-16-16s-16 7.2-16 16v64c0 8.8 7.2 16 16 16s16-7.2 16-16V80zM496 192c-8.8 0-16 7.2-16 16v64c0 8.8 7.2 16 16 16s16-7.2 16-16V208c0-8.8-7.2-16-16-16zm16 144c0-8.8-7.2-16-16-16s-16 7.2-16 16v64c0 8.8 7.2 16 16 16s16-7.2 16-16V336z"></path></svg></span>  Contact</a>
+                </li>
+            </ul>
+            <p class="copyright__content mb-0">Developed with <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="text-paragraph" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+                </span>  by <br> <span><a class="text__secondary" href="#">Deelaka</a></span>© 2023</p>
+        </div>
+    </div>
+    <!-- Start sidebar end -->
+
+  
+
+    <!-- Start header area -->
+    <header class="header__section  d-none d-lg-u-block">
+        <div class="container-fluid">
+            <div class="main__header d-flex justify-content-between align-items-center">
+                <div class="main__logo">
+                    <h1 class="main__logo--title"><a class="main__logo--link" href="index.html">
+                        <img class="main__logo--img logo_light" src="assets/img/logo/nav-log.png" alt="logo-img">
+                        <img class="main__logo--img logo_dark" src="assets/img/logo/nav-log-white.png" alt="logo-img">
+                    </a></h1>
+                </div>
+                <div class="offcanvas__header--menu__open d-lg-u-block">
+                    <a class="offcanvas__header--menu__open--btn" href="javascript:void(0)" data-offcanvas>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="ionicon offcanvas__header--menu__open--svg" viewBox="0 0 512 512"><path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" d="M80 160h352M80 256h352M80 352h352"/></svg>
+                        <span class="visually-hidden">Offcanvas Menu Open</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End header area -->
+
+    <!-- Start Offcanvas header menu -->
+    <div class="offcanvas__header">
+        <div class="offcanvas__inner">
+            <div class="offcanvas__logo">
+                <a class="offcanvas__logo_link" href="index.html">
+                    <img src="assets/img/logo/nav-log.png" alt="Logo-img" width="158" height="36">
+                </a>
+                <button class="offcanvas__close--btn" data-offcanvas>close</button>
+            </div>
+            <nav class="offcanvas__menu">
+                <ul class="offcanvas__menu_ul">
+                    <li class="offcanvas__menu_li">
+                        <a class="offcanvas__menu_item" href="index-3.html">Home</a>
+                    </li>
+                    <li class="offcanvas__menu_li"><a class="offcanvas__menu_item" href="about-2.html">About</a></li>
+                    <li class="offcanvas__menu_li"><a class="offcanvas__menu_item" href="services-2.html">Services</a></li>
+                    <li class="offcanvas__menu_li"><a class="offcanvas__menu_item" href="portfolio-2.html">Portfolio</a></li>
+                    <li class="offcanvas__menu_li"><a class="offcanvas__menu_item" href="blog-2.html">Blog</a></li>
+                    <li class="offcanvas__menu_li"><a class="offcanvas__menu_item" href="contact-2.html">Contact</a></li>
+                </ul>
+                <div class="offcanvas__download--btn">
+                    <button class="primary__btn download__btn">
+                        <svg class="download__btn--svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                        Download CV
+                    </button>
+                 </div>
+            </nav>
+        </div>
+    </div>
+    <!-- End Offcanvas header menu -->
+
+    <main class="main__content_wrapper">
+        <div class="inner__page--content__style3">
+            <div class="page__content--style3__padding">
+                <div class="page__heading style3">
+                    <h1 class="page__heading--title">CONTACT ME</h1>
+                    <h2 class="page__heading--subtitle">CONTACT <span>ME</span></h2> 
+                </div>
+        
+                <!-- Start contact section -->
+                <section class="contact__section contact__page--style section--padding">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <div class="contact__left">
+                                <div class="section__heading mb-50">
+                                    <span class="section__heading--subtitle text__secondary">CONTACT</span>
+                                    <h2 class="section__heading--title mb-10">Get I contact work </h2> 
+                                   
+                                </div>
+                                <form class="contact__form" action="#">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6 col-sm-6 mb-30">
+                                            <input class="contact__input--field" placeholder="Your name" type="text">
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-6 mb-30">
+                                            <input class="contact__input--field" placeholder="Your email" type="text">
+                                        </div>
+                                    </div>
+                                    <textarea class="contact__textarea--field" placeholder="Message"></textarea>
+                                    <button class="contact__button primary__btn">Send Message</button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="contact__info">
+                                <div class="contact__info--items d-flex align-items-center">
+                                    <span class="contact__info--icon">
+                                        <svg width="25" height="34" fill="currentColor" stroke="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"></path></svg>
+                                    </span>
+                                    <div class="contact__info--content">
+                                        <h3 class="contact__info--title">Call Me</h3>
+                                        <p class="contact__info--desc">
+                                            <a href="tel:+880254615566">+94752056898</a> <br>
+                                            <a href="tel:+880254615566">+94781316093</a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="contact__info--items d-flex align-items-center">
+                                    <span class="contact__info--icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                                    </span>
+                                    <div class="contact__info--content">
+                                        <h3 class="contact__info--title">Email Us</h3>
+                                        <p class="contact__info--desc">
+                                            <a href="mailto:info@example.com">deelaka.lakpura94@gmail.com</a> <br>
+                                            <a href="mailto:info@example.com">ds.studios02@gmail.com</a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="contact__info--items d-flex align-items-center">
+                                    <span class="contact__info--icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                                    </span>
+                                    <div class="contact__info--content">
+                                        <h3 class="contact__info--title">Address</h3>
+                                        <p class="contact__info--desc">
+                                            C7/SF/01 Government Housing Scheme <br>
+                                                Jalthara,Hanwella.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- End contact section -->
+
+                <!-- Start contact map area -->
+                <div class="contact__map--area contact__page--map section--padding pt-0">
+                    <iframe class="contact__map--iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126768.60346287812!2d79.97021184668336!3d6.828215145666985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae253b5ee40902d%3A0x9afb5b0e389e22a6!2sGovernment%20Housing%20Scheme(Vegas)!5e0!3m2!1sen!2slk!4v1693292709109!5m2!1sen!2slk" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <!-- End contact map area -->
+            </div>
+        </div>
+
+    </main>
+
+
+    <!-- Scroll top bar -->
+    <button id="scroll__top"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path fill="none" stroke="currentColor" stroke-linecap="round"  stroke-width="48" d="M112 244l144-144 144 144M256 120v292"/></svg></button>
+    
+   <!-- All Script JS Plugins here  -->
+   <script src="assets/js/vendor/popper.js" defer="defer"></script>
+   <script src="assets/js/vendor/bootstrap.min.js" defer="defer"></script>
+   <script src="assets/js/plugins/swiper-bundle.min.js"></script>
+   <script src="assets/js/plugins/isotope.pkgd.min.js"></script>
+
+  <!-- Customscript js -->
+  <script src="assets/js/script.js"></script>
+
+  <!-- Dark to light js -->
+  <script>
+    // On page load or when changing themes, best to add inline in `head` to avoid FOUC
+    if (localStorage.getItem("theme-color") === "dark" || (!("theme-color" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+      document.getElementById("light__to--dark")?.classList.add("dark--version");
+    } 
+    if (localStorage.getItem("theme-color") === "light") {
+      document.getElementById("light__to--dark")?.classList.remove("dark--version");
+    } 
+  </script>
+  
+</body>
+
+<!-- Mirrored from themihub.com/html/morex-bootstrap/morex/contact-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 05 Aug 2023 20:37:00 GMT -->
+</html>
